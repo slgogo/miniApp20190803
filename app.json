@@ -1,14 +1,15 @@
 {
   "pages": [
     "pages/index/index",
-    "page/event/event",
+    "pages/event/event",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#dddddd",
+    "navigationBarTitleText": "小程序页面设计",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
   },
   "tabBar": {
         "color": "rgba(0,0,0,0.6)",
@@ -17,11 +18,11 @@
         "backgroundColor": "#ededed",
       "list":[
         {
-          "pagepath": "page/index/index",
-          "text": "首页"
+            "pagePath": "pages/index/index",
+            "text": "首页"
         },
         {
-          "pagepath": "page/event/event",
+          "pagePath": "pages/event/event",
           "text": "活动"
         }
       ]
