@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "page/event/event",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+        "color": "rgba(0,0,0,0.6)",
+        "selectedColor": "#000000",
+        "borderStyle": "white",
+        "backgroundColor": "#ededed",
+      "list":[
+        {
+          "pagepath": "page/index/index",
+          "text": "首页"
+        },
+        {
+          "pagepath": "page/event/event",
+          "text": "活动"
+        }
+      ]
+    },
+  "sitemapLocation": "sitemap.json"
+}
